@@ -1,0 +1,42 @@
+public class Valores
+/**
+ * Rangos Limites en Datos Primitivos
+ * Universidad Tecnologica de Tulancingo
+ * Islas Santos Esteban
+ * 1717110261
+ *
+ * TIC - 32
+ *
+*/
+{
+	public static void main(String[] args) {
+	    byte byte_min = -128;
+	    byte byte_max = 127;
+	    System.out.println("BYTE\n" + "Valor minimo == " + byte_min);
+	    System.out.println("Valor maximo == " + byte_max);
+	    short short_min = -32768;
+	    short short_max = 32767;
+		System.out.println("Short\n" + "Valor minimo == " + short_min);
+	    System.out.println("Valor maximo == " + short_max);
+	    int int_min = -2147483648;
+	    int int_max = 2147483647;
+	    System.out.println("Int\n" + "Valor minimo == " + int_min);
+	    System.out.println("Valor maximo == " + int_max);
+	    
+	    System.out.println("Long\n" + "Valor minimo == " + Long.MIN_VALUE);
+	    System.out.println("Valor maximo == " + Long.MAX_VALUE);
+	    
+	    System.out.println("Float\n" + "Valor minimo == " + Float.MIN_VALUE);
+	    System.out.println("Valor maximo == " + Float.MAX_VALUE);
+	    
+	    System.out.println("Double\n" + "Valor minimo == " + Double.MIN_VALUE);
+	    System.out.println("Valor maximo == " + Double.MAX_VALUE);
+	    
+	    boolean bool_True = true;
+	    boolean bool_False = false;
+	    
+	    System.out.println("Booleano\n" + "Valor True == " + bool_True);
+	    System.out.println("Valor False == " + bool_False);
+	    
+	}
+}
